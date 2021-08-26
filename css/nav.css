@@ -1,0 +1,94 @@
+header.header{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+}
+header.header div.logo{
+    display: inline-block;
+    width: 360px;
+    border: 1px solid red;
+    background-image: url("../photo/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header.header div.hamburger{
+    display: none;
+}
+header.header div.nav_heart{
+    line-height: 100px;
+    border: 1px solid black;
+}
+
+header.header div.nav_heart a.heart{
+    color: red;
+}
+
+nav.nav{
+    border: 1px solid blue;
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    background-color: pink;
+}
+nav.nav ul.nav_list{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    border: 1px solid orange;
+    align-items: center;
+
+}
+nav.nav ul.nav_list > li{
+    list-style:none;
+    display:inline-block;
+    font-size:16px;
+    border: 1px solid red;
+    color:white;
+}
+
+nav.nav ul.nav_list > li > a{
+    text-decoration: none;
+    border: 1px solid black;
+    display:inline-block;
+    color:red;
+    color:white;
+  }
+
+  nav.nav ul.nav_list >li:hover,
+  nav.nav ul.nav_list > li > a:hover{
+    background-color: #E7F5DE;
+    color: #3EB3B2;
+  }
+
+
+ul.adoption_list ,
+ul.health_list,
+ul.location_list{
+    border: 1px solid black;
+    /* display: none; */
+  }
+ul.adoption_list >li > a:hover ,
+ul.health_list >li > a:hover,
+ul.location_list >li > a:hover{
+    background-color: #E7F5DE;
+    color: #5E454B;
+  }
+  ul.adoption_list >li , ul.health_list >li, ul.location_list >li{
+    list-style:none;
+  }
+
+  ul.adoption_list >li >a , ul.health_list >li >a, ul.location_list >li >a{
+    color: #3EB3B2;
+    text-decoration: none;
+  }
+div.adoption::after,
+div.health::after,
+div.location::after{
+    content:'';
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:10px solid white;
+    border-bottom:0px solid blue;
+    display:inline-block;
+  }
