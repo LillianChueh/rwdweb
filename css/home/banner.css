@@ -54,8 +54,8 @@ article.banner{
     z-index: 0;
   }
   div.mask div.dog_amount ,div.mask div.cat_amount{
-    width:246px;
-    height:55px;
+    width:200px;
+    height:45px;
     border-radius: 34px;
     border:1px #3EB3B2;
     display: inline-block;
@@ -71,7 +71,7 @@ article.banner{
   div.mask div.dog_amount::before {
   content: "";
   width:68px;
-  height:54px;
+  height:45px;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0;
@@ -85,7 +85,7 @@ article.banner{
   div.mask div.cat_amount::before {
     content: "";
     width:68px;
-    height:54px;
+    height:45px;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
@@ -115,7 +115,7 @@ article.banner{
       background-color: #5E454B;
       border-radius: 20px;
       position: absolute;
-      top:320px;
+      top:300px;
       left:36px;
     }
     
