@@ -7,3 +7,8 @@
   img{
     max-width: 100%;
   }
+  article.home_banner{
+    position: relative;
+    height: 800px;
+    border: 1px solid black;
+  }

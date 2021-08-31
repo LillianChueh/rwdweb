@@ -1,12 +1,12 @@
 article.banner{
     width: 100%;
     height: 800px;
-    margin: 0 auto;
-    position: relative;
+    position: absolute;
+    top: 0;
+    display: inline-block;
   }
   article.bnner div.banner_container{
     position: relative;
-    top:120px;
   }
   div.carousel{
    /* border: 1px solid black; */
@@ -22,7 +22,7 @@ article.banner{
     /* display: inline-block; */
     /* border: 1px solid blue; */
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right bottom;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -47,10 +47,10 @@ article.banner{
     width: 456px;
     height: 800px;
     float: left;
-    background-color: rgba(236, 223, 195,0.8);
+    background-color: white;
     filter:blur(30px);
     position: absolute;
-    top: 0;
+    top: 0px;
     z-index: 0;
   }
   div.mask div.dog_amount ,div.mask div.cat_amount{
@@ -100,12 +100,12 @@ article.banner{
     }
     div.mask div.dog_amount{
       position: absolute;
-      top: 21px;
+      top: 121px;
       left: 10px;
     }
     div.mask div.cat_amount{
       position: absolute;
-      top: 87px;
+      top: 187px;
       left: 10px;
     }
     div.mask div.word{
@@ -115,7 +115,7 @@ article.banner{
       background-color: #5E454B;
       border-radius: 20px;
       position: absolute;
-      top:200px;
+      top:320px;
       left:36px;
     }
     
@@ -170,7 +170,7 @@ article.banner{
     background-size: contain;
     transform:rotate(-6deg);
     position: absolute  ;
-    top:620px;
+    top:650px;
     left:0;
   } 
   div.scroll{
@@ -181,7 +181,7 @@ article.banner{
     font-size: 30px;
     text-align: center;
     position: absolute;
-    bottom: 35px;
+    bottom: 0;
     left: 360px;
     animation-duration: 2s;
   }
