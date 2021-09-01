@@ -86,7 +86,6 @@ div.find:hover div.find_link{
 
 section.animal_flex{
     /* border: 1px solid black; */
-    width: calc(100% - 100px) ;
     width: 1045px;
     display: flex;
     flex-wrap:wrap;

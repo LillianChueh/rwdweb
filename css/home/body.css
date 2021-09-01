@@ -8,7 +8,7 @@ body{
   flex-wrap: wrap;
 }
 img{
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 article.home_banner{
   position: relative;
@@ -38,7 +38,7 @@ aside{
 article.adopt{
   order: 3;
 }
-article.homepage_talk{
+article.home_talk{
   order:4;
 }
 
