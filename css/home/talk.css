@@ -41,6 +41,7 @@ div.small{
     overflow: hidden;
     cursor: pointer;
     position: absolute;
+    z-index: 1;
 }
 div.small > img{
     height: 100%;
@@ -48,9 +49,12 @@ div.small > img{
     filter: blur(2px);
 }
 div.large{
+    width: 900px;
     position: relative;
     z-index: 2;
     display: inline-block;
+    border: 1px solid black;
+    display: none;
 }
 
 div.large >div.photo{
@@ -63,22 +67,23 @@ div.large >div.photo{
 }
 div.large > div.photo > img{
     max-height: 100%;
+    
 }
 
-
 div.talk_word{
-    /* width: 450px; */
-    /* height: 115px; */
+    display: inline-block;
+    position: relative;
+    width: 430px; 
     background-color: #3EB3B2;
     color: #5E454B;
-    border-radius: 50px;
+    border-radius: 40px;
     font-size: 30px;
     text-align: center;
     word-break: keep-all;
-    padding: 30px;
-    position: absolute;
-    top:100px;
-    left:430px;
+    padding: 15px;    
+    top:-200px;
+    z-index: 2;
+    
 }
 div.talk_word::before{
     content: "";
@@ -106,6 +111,7 @@ div.talk1 > div.small{
  div.talk1 > div.large{
     top:200px;
     left: 0px;
+    /* display: block; */
  }
 
 div.talk5 > div.small{
@@ -114,7 +120,8 @@ div.talk5 > div.small{
 }
 div.talk5 > div.large{
     top:200px;
-    right: 0px;
+    left: 300px;
+    /* display: block; */
  }
 
 
@@ -122,30 +129,60 @@ div.talk3 > div.small{
     top:100px;
     left:490px;
 }
+div.talk3 > div.large{
+    top:100px;
+    left: 200px;
+    /* display: block; */
+ }
 
 div.talk7 > div.small{
     top:550px;
     left:490px;
 }
+div.talk7 > div.large{
+    top:300px;
+    left: 200px;
+    /* display: block; */
+ }
 
 
 div.talk2 > div.small{
     top:150px;
     left:260px;
 }
+div.talk2 > div.large{
+    top:150px;
+    left: 100px;
+    /* display: block; */
+ }
 
 div.talk6 > div.small{
     top:450px;
     left:260px;
 }
+div.talk6 > div.large{
+    top:250px;
+    left: 100px;
+    /* display: block; */
+ }
 
 
 div.talk4 > div.small{
     top:150px;
     right:260px;
 }
+div.talk4 > div.large{
+    top:150px;
+    left: 250px;
+    /* display: block; */
+ }
 
 div.talk8 > div.small{
     top:450px;
     right:260px;
 }
+div.talk8 > div.large{
+    top:250px;
+    left: 250px;
+    /* display: block; */
+ }
