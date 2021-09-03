@@ -1,12 +1,12 @@
 article.home_talk{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     position: relative;
     background-image: url(../../photo/back-8.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* @media (min-width: 768px) and (max-width: 1365.98px){
+ @media (min-width: 768px) and (max-width: 1365.98px){
     article.home_talk{
       min-width: 1086px;
       margin: 0 auto;
@@ -19,18 +19,37 @@ article.home_talk{
       margin: 0 auto;
     }
   }
-} */
-
 
 
 
 div.talk_container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     width: 1200px;
     height: 900px;
     position: relative;
 }
+@media (min-width: 768px) and (max-width: 1365.98px){
+    div.talk_container{
+        margin-top: 100px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+}
+@media (max-width: 767.98px){
+    div.talk_container{
+        margin-top: 100px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
 
 div.small{
     border: 1px solid orange;
@@ -43,29 +62,71 @@ div.small{
     position: absolute;
     z-index: 1;
 }
+@media (min-width: 768px) and (max-width: 1365.98px){
+    div.small{
+        display: none;
+    }
+  
+}
+@media (max-width: 767.98px){
+    div.small{
+        display: none;
+    }
+}
+
+
+
 div.small > img{
     height: 100%;
     object-fit: cover;
     filter: blur(2px);
 }
-div.large{
-    width: 900px;
-    position: relative;
-    z-index: 2;
-    display: inline-block;
-    border: 1px solid black;
-    display: none;
+
+
+@media (min-width: 768px) and (max-width: 1365.98px){
+    #each{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+  
+}
+@media (max-width: 767.98px){
+    #each{
+        margin: 0 auto;
+        margin-bottom: 80px;
+        /* border: 1px solid red; */
+    }
 }
 
-div.large >div.photo{
+
+div.photo{
     width: 450px;
     height: 450px;
     border-radius: 300px;
     display: inline-block;
     border: 5px solid #3EB3B2;
     overflow: hidden;
+    position: relative;
+    z-index: 2;
+    display: none;
 }
-div.large > div.photo > img{
+@media (min-width: 768px) and (max-width: 1365.98px){
+    div.photo{
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+  
+}
+@media (max-width: 767.98px){
+    div.photo{
+        display: inline-block;
+        margin-bottom: 0px;
+        
+    }
+}
+
+
+div.photo > img{
     max-height: 100%;
     
 }
@@ -81,10 +142,25 @@ div.talk_word{
     text-align: center;
     word-break: keep-all;
     padding: 15px;    
-    top:-200px;
     z-index: 2;
-    
+    display: none;
 }
+@media (min-width: 768px) and (max-width: 1365.98px){
+    div.talk_word{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 100px;
+    }
+  
+}
+@media (max-width: 767.98px){
+    div.talk_word{
+        display: block;
+        top:-20px;
+        margin-bottom: 20px;
+    }
+}
+
 div.talk_word::before{
     content: "";
     width: 0px;
@@ -103,86 +179,137 @@ div.talk_word::before{
 
 /* 設定圖位置 */
 
-
-div.talk1 > div.small{
-    top:300px;
-    left: 80px;
- }
- div.talk1 > div.large{
-    top:200px;
-    left: 0px;
-    /* display: block; */
- }
-
-div.talk5 > div.small{
-    top:300px;
-    right: 80px;
+@media (min-width: 1366px){
+    div.talk1 > div.small{
+        top:300px;
+        left: 80px;
+     }
+     div.talk1 > div.photo{
+        top:200px;
+        left: 0px;
+        /* display: block; */
+     }
+    
+    
+    div.talk5 > div.small{
+        top:300px;
+        right: 80px;
+    }
+    div.talk5 > div.photo{
+        top:200px;
+        left: 300px;
+        /* display: block; */
+     }
+     div.talk5 >div.talk_word{
+        left:300px;
+    }
+    
+    
+    div.talk3 > div.small{
+        top:90px;
+        left:490px;
+    }
+    div.talk3 > div.photo{
+        top:150px;
+        left: 250px;
+        /* display: block; */
+     }
+     div.talk3 >div.talk_word{
+        left:250px;
+    }
+    
+    
+    
+    div.talk7 > div.small{
+        top:550px;
+        left:490px;
+    }
+    div.talk7 > div.photo{
+        top:300px;
+        left: 200px;
+        /* display: block; */
+     }
+     div.talk7 >div.talk_word{
+        left:150px;
+    }
+    
+    
+    div.talk2 > div.small{
+        top:150px;
+        left:260px;
+    }
+    div.talk2 > div.photo{
+        top:150px;
+        left: 100px;
+        /* display: block; */
+     }
+    
+     div.talk2 >div.talk_word{
+         left:100px;
+     }
+    
+    div.talk6 > div.small{
+        top:450px;
+        left:260px;
+    }
+    div.talk6 > div.photo{
+        top:250px;
+        left: 100px;
+        /* display: block; */
+     }
+     div.talk6 >div.talk_word{
+        left:100px;
+    }
+    
+    
+    div.talk4 > div.small{
+        top:150px;
+        right:260px;
+    }
+    div.talk4 > div.photo{
+        top:150px;
+        left: 250px;
+        /* display: block; */
+     }
+     div.talk4 >div.talk_word{
+        left:250px;
+    }
+    
+    div.talk8 > div.small{
+        top:450px;
+        right:260px;
+    }
+    div.talk8 > div.photo{
+        top:230px;
+        left: 250px;
+        /* display: block; */
+     }
+     div.talk8 >div.talk_word{
+        left:250px;
+    }
+    div.-on{
+        display: inline-block;
+    }
+    
 }
-div.talk5 > div.large{
-    top:200px;
-    left: 300px;
-    /* display: block; */
- }
 
 
-div.talk3 > div.small{
-    top:100px;
-    left:490px;
+ 
+ @media (min-width: 768px) and (max-width: 1365.98px){
+    div.talk3,
+    div.talk4,
+    div.talk5,
+    div.talk8
+    {
+    display: none;
+    }  
+  
 }
-div.talk3 > div.large{
-    top:100px;
-    left: 200px;
-    /* display: block; */
- }
-
-div.talk7 > div.small{
-    top:550px;
-    left:490px;
+@media (max-width: 767.98px){
+    div.talk3,
+    div.talk4,
+    div.talk5,
+    div.talk8{
+        display: none;
+        }
 }
-div.talk7 > div.large{
-    top:300px;
-    left: 200px;
-    /* display: block; */
- }
-
-
-div.talk2 > div.small{
-    top:150px;
-    left:260px;
-}
-div.talk2 > div.large{
-    top:150px;
-    left: 100px;
-    /* display: block; */
- }
-
-div.talk6 > div.small{
-    top:450px;
-    left:260px;
-}
-div.talk6 > div.large{
-    top:250px;
-    left: 100px;
-    /* display: block; */
- }
-
-
-div.talk4 > div.small{
-    top:150px;
-    right:260px;
-}
-div.talk4 > div.large{
-    top:150px;
-    left: 250px;
-    /* display: block; */
- }
-
-div.talk8 > div.small{
-    top:450px;
-    right:260px;
-}
-div.talk8 > div.large{
-    top:250px;
-    left: 250px;
-    /* display: block; */
- }
