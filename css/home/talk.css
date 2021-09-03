@@ -6,7 +6,7 @@ article.home_talk{
     background-repeat: no-repeat;
     background-size: cover;
 }
- @media (min-width: 768px) and (max-width: 1365.98px){
+ @media (min-width: 768px) and (max-width: 1199.98px){
     article.home_talk{
       min-width: 1086px;
       margin: 0 auto;
@@ -29,7 +29,7 @@ div.talk_container{
     height: 900px;
     position: relative;
 }
-@media (min-width: 768px) and (max-width: 1365.98px){
+@media (min-width: 768px) and (max-width: 1199.98px){
     div.talk_container{
         margin-top: 100px;
         width: 100%;
@@ -62,7 +62,7 @@ div.small{
     position: absolute;
     z-index: 1;
 }
-@media (min-width: 768px) and (max-width: 1365.98px){
+@media (min-width: 768px) and (max-width: 1199.98px){
     div.small{
         display: none;
     }
@@ -83,7 +83,7 @@ div.small > img{
 }
 
 
-@media (min-width: 768px) and (max-width: 1365.98px){
+@media (min-width: 768px) and (max-width: 1199.98px){
     #each{
         margin: 0 auto;
         margin-bottom: 50px;
@@ -110,7 +110,7 @@ div.photo{
     z-index: 2;
     display: none;
 }
-@media (min-width: 768px) and (max-width: 1365.98px){
+@media (min-width: 768px) and (max-width: 1199.98px){
     div.photo{
         display: inline-block;
         margin-bottom: 30px;
@@ -145,7 +145,7 @@ div.talk_word{
     z-index: 2;
     display: none;
 }
-@media (min-width: 768px) and (max-width: 1365.98px){
+@media (min-width: 768px) and (max-width: 1199.98px){
     div.talk_word{
         display: inline-block;
         vertical-align: top;
@@ -179,7 +179,7 @@ div.talk_word::before{
 
 /* 設定圖位置 */
 
-@media (min-width: 1366px){
+@media (min-width: 1200px){
     div.talk1 > div.small{
         top:300px;
         left: 80px;
@@ -295,7 +295,7 @@ div.talk_word::before{
 
 
  
- @media (min-width: 768px) and (max-width: 1365.98px){
+ @media (min-width: 768px) and (max-width: 1199.98px){
     div.talk3,
     div.talk4,
     div.talk5,
