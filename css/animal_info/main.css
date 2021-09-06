@@ -1,0 +1,242 @@
+main{
+    width: 1200px;
+    /* height: 2000px; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: #ECDFC3;
+  }
+
+main div.bread{
+    height: 21px;
+    font-size: 16px;
+    color:#3EB3B2;
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    left:5px;
+  }
+  
+  main div.bread >a {
+    font-size: 16px;
+    color:#3EB3B2;
+    text-decoration: none;
+  }
+
+
+main div.info_photo{
+  width: 730px;
+  height: 700px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  margin-top: 55px;
+  margin-left: 5px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+div.info_photo div.large{
+    width: 712px;
+    height: 550px;
+    border: 1px solid #3EB3B2;
+    border-radius: 75px;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.info_photo div.small{
+    width: 200px;
+    height: 140px;
+    border: 1px solid #3EB3B2;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+div.info_photo div.large img{
+    object-fit: contain;
+}
+
+div.info_photo div.small img{
+    max-width: 100%;
+}
+
+main div.info_list{
+    width: 445px;
+    height: 523px;
+    display:inline-block;
+    border: 1px solid  #3EB3B2;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+}
+
+div.info_list > ul{
+    list-style: none;
+    /* border: 1px solid #3EB3B2; */
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+div.info_list > ul > li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom: 1px solid #3EB3B2;
+}
+
+
+
+div.info_list > ul > li.left{
+width: 160px;
+height: 75px;
+background-color: #E7F5DE;
+border-right:1px solid #3EB3B2;
+color: #3EB3B2;
+float: left;
+}
+div.info_list > ul > li.right{
+    background-color: white;
+    color: #3EB3B2;
+    width: calc( 100% - 160px );
+    height: 75px;
+    }
+
+main div.button button.reserve{
+    width: 246px;
+    height: 136px;
+    border-radius: 45px;
+    font-size: 45px;
+    text-align: center;
+    background-color: #5E454B;
+    position: absolute;
+    top:615px;
+    right: 216px;
+}
+button.reserve >a{
+    color: #ECDFC3;
+    text-decoration: none;
+}
+
+main div.button button.like{
+    width: 190px;
+    height: 82px;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: #5E454B;
+    color: #ECDFC3;
+    position: absolute;
+    top:669px;
+    right: 15px;
+    display: inline-block;
+    padding-left: 48px;
+    text-align: left;
+}
+div.button button.like div.heart{
+    color:red;
+  width:55px;
+  height: 55px;
+  margin: 5px;
+  display: inline-block;
+  position: absolute;
+}
+
+/* 設定區域線長度 */
+div.line{
+    width: 1070px;
+    font-size: 3px;
+    color: #3EB3B2;
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+
+main article.information{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+main article.information h1{
+    font-size: 30px;
+    color: #5E454B;
+}
+
+article.information div.table{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size: 0;
+}
+ div.table > ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     font-size: 0;
+     width: 100%;
+     height: 50%;
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+     
+ }
+
+ div.table > ul > li{
+     font-size: 20px;
+     background-color: white;
+     color:#5E454B;
+     display: inline-block;
+     height: 50px;
+     width: 125px;
+     border-left:1px solid black;
+     border-top:1px solid black;
+     margin: 0;
+     padding: 10px;
+ }
+ div.table > ul > li:last-child{
+    border-right:1px solid black;
+ }
+ div.table > ul.table_down > li{
+    border-bottom:1px solid black;
+ }
+
+ div.table > ul > li.cat{
+     background-color: #FEDEF0;
+ }
+div.table ul.down > li > div{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+article.information div.detail{
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #5E454B;
+    line-height: 1.8;
+}
+
+div.detail div.story{
+    width: 800px;
+    margin-top: 50px;
+    word-break: keep-all;
+}
+
+div.location div.map iframe{
+    width:1068px;
+    height: 400px;
+    margin: 0 auto;
+}

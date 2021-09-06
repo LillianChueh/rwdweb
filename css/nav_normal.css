@@ -240,7 +240,7 @@ ul.location_list > li > a:hover{
 background-color: #5E454B;
 color: #E7F5DE;
 }
-div.adoption::after, div.health::after, div.location::after{
+div.adoption::after, div.health::after, ul div.location::after{
 content:'';
 border-left:5px solid transparent;
 border-right:5px solid transparent;

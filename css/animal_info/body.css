@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  img{
+    /* max-width: 100%; */
+  }
+  nav.nav{
+    order: 1;
+  }
+  
+  main{
+    order:2;
+  }
+  footer{
+    order: 3;
+}
+nav.nav_on div.adoption{
+  background-color: #3EB3B2;
+}
+main div.bread >span{
+  color: #5E454B;
+}
