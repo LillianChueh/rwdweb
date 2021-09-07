@@ -1,0 +1,115 @@
+article.banner{
+    width: 1200px;
+    height:700px;
+    display:inline-block;
+    position: relative;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    article.banner{
+      max-width: 1086px;
+      margin: 0 auto;
+    }
+    
+  }
+  @media (max-width: 767.98px){
+    article.banner{
+      display: none;
+    }
+  }
+
+article.banner div.banner_photo{
+    width: 1200px;
+    height:550px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    top: 0;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    article.banner div.banner_photo{
+      max-width: 1086px;
+      margin: 0 auto;
+    }
+    
+  }
+  @media (max-width: 767.98px){
+    article.banner div.banner_photo{
+      max-width: 608px;
+      margin: 0 auto;
+    }
+  }
+
+
+article.banner div.banner_photo >img{
+    max-width: 100%;
+    position: absolute;
+    top: -120px
+}
+
+article.banner div.wave{
+    width: 1200px;
+    height:295px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count :infinite;
+    animation-fill-mode:forwards;
+    animation-timing-function: steps(1);
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    article.banner div.wave{
+      max-width: 1086px;
+    }
+    
+  }
+  @media (max-width: 767.98px){
+    article.banner div.wave{
+      max-width: 608px;
+    }
+  }
+
+ @keyframes scale {
+    0% {
+      transform: scaleX( 1 );
+    }
+   
+    25% {
+        transform: scaleX( -1 );
+    }
+
+    50% {
+        transform: scaleX( 1 );
+      }
+     
+    100% {
+          transform: scaleX( -1 );
+      }
+
+  } 
+
+article.banner div.news_title{
+    width: 290px;
+    height: 95px;
+    text-align: center;
+    font-size: 40px;
+    color: #5E454B;
+    background-color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 455px;
+    z-index: 3;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
