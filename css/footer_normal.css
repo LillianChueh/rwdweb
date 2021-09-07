@@ -6,14 +6,14 @@ footer.footer{
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
     footer.footer{
-      min-width: 1086px;
+      max-width: 1086px;
       margin: 0 auto;
     }
     
   }
   @media (max-width: 767.98px){
     footer.footer{
-      min-width: 608px;
+      max-width: 608px;
       margin: 0 auto;
     }
   }
