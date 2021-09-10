@@ -1,6 +1,6 @@
 header.header{
   /* border: 1px solid #E7F5DE; */
-  min-width: 1200px;
+  width: 1200px;
   height: 100px;
   margin: 0 auto;
   position:relative;
@@ -10,16 +10,18 @@ header.header{
   z-index: 5;
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
-header.header{
-  min-width: 1086px;
-  margin: 0 auto;
-}
+  header.header{
+    width: 1086px;
+    margin: 0 auto;
+    max-width: 100%
+    }
 }
 @media (max-width: 767.98px){
-header.header{
-  min-width: 608px;
-  margin: 0 auto;
-}
+  header.header{
+    width: 608px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
 }
 
 header.header div.logo{

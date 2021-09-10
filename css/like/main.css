@@ -9,8 +9,9 @@ main{
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
     main{
-      max-width: 1086px;
+      width: 1086px;
       margin: 0 auto;
+      max-width: 100%;
     }
     
   }
@@ -49,19 +50,27 @@ main article.list{
     display: flex;
     flex-wrap: wrap;
 }
+@media (min-width: 768px) and (max-width: 1199.98px){
+  main article.list{
+    width: 950px;
+    max-width: 100%;
+  }
+  
+}
 
  @media (max-width: 767.98px){
     main article.list{
       width: 550px;
       height: 1200px;
       padding-bottom: 10px;
+      max-width: 100%;
     }
   }
 
 
 article.list section.animal{
 width: 915px;
-height: 290px;
+/* height: 290px; */
 border-radius: 28px;
 border: 1px solid #3EB3B2;
 margin: 0 auto;
@@ -69,10 +78,19 @@ margin-top:30px;
 display: inline-block;
 position: relative;
 }
+@media (min-width: 768px) and (max-width: 1199.98px){
+  article.list section.animal{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+}
+
 @media (max-width: 767.98px){
     article.list section.animal{
         width: 500px;
-        height: 600px;
+        /* height: 600px; */
     }
   }
 
@@ -86,6 +104,14 @@ section.animal div.photo{
     margin: 20px;
     display: inline-block;
 }
+@media (min-width: 768px) and (max-width: 1199.98px){
+  section.animal div.photo{
+    max-width: 300px;
+    max-height:200px;
+    
+  }
+  
+}
 @media (max-width: 767.98px){
     section.animal div.photo{
         display: block;
@@ -98,20 +124,30 @@ section.animal div.photo >img{
 }
 
 section.animal div.word{
-    width: 388px;
-    height: 240px;
+    /* width: 388px; */
+    /* height: 240px; */
     display: inline-block;
     line-height: 1.4;
     font-size: 30px;
     color: #3EB3B2;
-    position: absolute;
-    top:20px;
+    /* position: absolute; */
+    vertical-align: top;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+  section.animal div.word{
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 20px; 
+    margin-left: 10px; 
+  }
+  
 }
 @media (max-width: 767.98px){
     section.animal div.word{
-        position: absolute;
-        top:300px;
-        left: 10px;
+      margin-top: 10px;  
+      line-height: 1.5;
+        font-size: 16px;
+        margin-left: 10px; 
     }
   }
 

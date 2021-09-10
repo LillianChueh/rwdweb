@@ -8,15 +8,17 @@ main{
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
     main{
-      max-width: 1086px;
+      width: 1086px;
       margin: 0 auto;
+      max-width: 100%;
     }
     
   }
   @media (max-width: 767.98px){
     main{
-      max-width: 608px;
+      width: 608px;
       margin: 0 auto;
+      max-width: 100%;
     }
   }
 
@@ -36,8 +38,8 @@ main div.bread >a {
     text-decoration: none;
 }
 main article.reserve_area{
-    width: 1070px;
-    height: 980px;
+    max-width: 1070px;
+    /* height: 980px; */
     background-color: white;
     border: 1px solid #E7F5DE;
     border-radius: 28px;
@@ -45,25 +47,41 @@ main article.reserve_area{
     margin-top:100px;
     position: relative;
 }
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main article.reserve_area{
+        max-width: 1000px;
+        /* height: 980px; */
+        
+    }
+}
+
+
 @media (max-width: 767.98px){
     main article.reserve_area{
-        width: 580px;
-        height: 1850px;
+        max-width: 580px;
+        /* height: 1850px; */
+        
     }
 }
 
 
 article.reserve_area section.animal{
-width: 415px;
-height: 575px;
+max-width: 415px;
 border-radius: 28px;
 border: 1px solid #3EB3B2;
 background-color: #E7F5DE;
 display: inline-block;
-position: absolute;
-top: 30px;
-left: 30px;
+position: relative;
+margin-top: 30px;
+margin-left: 10px;
 }
+@media (min-width: 768px) and (max-width: 1199.98px){
+    article.reserve_area section.animal{
+        max-width: 350px;
+    }
+  
+}
+
 @media (max-width: 767.98px){
     article.reserve_area section.animal{
         display: block;
@@ -87,14 +105,22 @@ main section.condition> h1
 }
 
 section.animal div.photo{
-    width: 365px;
-    height:230px;
+    max-width: 365px;
+    max-height:230px;
     /* border: 1px solid #3EB3B2; */
     border-radius: 28px;
     overflow: hidden;
     margin: 25px;
     display: inline-block;
 }
+@media (min-width: 768px) and (max-width: 1199.98px){
+    section.animal div.photo{
+        max-width: 250px;
+    }
+  
+}
+
+
 section.animal div.photo >img{
     max-width: 100%;
 }
@@ -102,35 +128,40 @@ section.animal div.photo >img{
 
 
 section.animal div.info{
-    width: 280px;
-    height: 215px;
+    max-width: 280px;
+    /* height: 215px; */
     display: inline-block;
     line-height: 1.8;
     font-size: 21px;
     color: #3EB3B2;
-    position: absolute;
-    bottom:34px;
-    left: 30px;
+    margin-left: 15px;
+    
 }
 
 
 section.form{
-    width: 555px;
-    height: 575px;
+    max-width: 555px;
+    /* height: 550px; */
     overflow: hidden;
     display: inline-block;
-    position: absolute;
-    top: 30px;
-    right: 30px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
 }
+@media (min-width: 768px) and (max-width: 1199.98px){
+    section.form{
+        max-width: 400px;
+    }
+}
+
 @media (max-width: 767.98px){
     section.form{
-        width: 550px;
+        max-width: 400px;
         display: block;
-        position: relative;
-        left: 0;
+        
+        
         margin: 0 auto;
-        top:80px;
         /* border: 1px solid black; */
         border-radius: 5px;
     }
@@ -156,7 +187,7 @@ section.form div._open{
 @media (max-width: 767.98px){
     section.form div._open{
         width: 548px;
-        
+        margin-top: 10px;
     }
 }
 
@@ -170,16 +201,26 @@ section.form div.show >hr,
     background-color: #3EB3B2;
 }
 
+div.cover{
+    display: none;
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    font-size: 16px;
+    z-index: 1;
+    position: relative;
+    border: 1px solid black;
+    color: #5E454B;
+    margin: 0 auto;
+}
 
 section.form div.show{
-    width: 555px;
-    height: 575px;
+    width: 100%;
+    height: 100%;
     background-color: white;
     font-size: 16px;
     z-index: 0;
-    position: absolute;
-    top:0;
-    left: 0;
+    position: relative;
     display: inline-block;
     color: #5E454B;
     /* border: 1px solid black; */
@@ -189,11 +230,11 @@ section.form div.show{
 
 
 div.show div.table{
-    width:450px;
+    max-width:380px;
     line-height: 3;
     /* border: 1px solid black; */
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 div.table label.question{
@@ -213,22 +254,24 @@ div.table select {
 
 
 div.show div.check{
-    margin-top: 50px;
+    margin: 0 auto;
     margin-left: 150px;
 }
 
 
 
+
 button.reserve{
-    width: 163px;
-    height: 73px;
+    width: 150px;
+    height: 60px;
     border-radius: 35px;
     font-size: 25px;
     text-align: center;
     background-color: #5E454B;
-    position: absolute;
-    bottom:0px;
-    right: 16px;
+    position: relative;
+    /* bottom:0px; */
+    right:10px;
+    margin-left: 80px;
     color: #ECDFC3;
     cursor: pointer;
 }
@@ -239,18 +282,23 @@ button.reserve:hover{
 }
 
 section.condition{
-    width: 1000px;
-    height: 340px;
+    width: 1100px;
+    max-width: 100%;
     border: 1px solid #3EB3B2;
     border-radius: 33px;
-    padding: 20px;
-    margin: 20px;
-    position: absolute;
-    bottom: 0px;
-    left: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top:20px;
     display: inline-block;
     color: #5E454B;
 }
+@media @media (min-width: 768px) and (max-width: 1199.98px){
+    section.condition{
+        max-width: 1000px;
+        margin-top: 700px;
+    }
+}
+
 @media (max-width: 767.98px){
     section.condition{
         width: 550px;
@@ -265,7 +313,7 @@ section.condition{
 
 
 section.condition div{
-    width: 450px;
+    max-width: 450px;
     display: inline-block;
     position: relative;
     vertical-align: top;
@@ -280,10 +328,12 @@ article.step{
     margin: 0 auto;
     margin-top: 120px;
     position: relative;
+    max-width: 100%;
 }
 @media (max-width: 767.98px){
     article.step{
         width: 550px;
+        max-width: 100%;
     }
 }
 
@@ -300,7 +350,7 @@ article.step >hr{
 
 article.step section.up_flex,
 article.step section.down_flex{
-    width: 1050px;
+    /* width: 1050px; */
     height: 230px;
     display: flex;
     /* border: 1px solid black; */
@@ -364,7 +414,7 @@ div.number div.triangle{
   }
   section.up_flex div.photo,
   section.down_flex div.photo{
-      width: 300px;
+      max-width: 300px;
       height: 180px;
       display: inline-block;
       /* border: 1px solid black; */
@@ -384,6 +434,8 @@ div.number div.triangle{
     margin-top: 80px;
     margin-bottom: 50px;
   }
+ 
+
   @media (max-width: 767.98px){
     article.step section.up_flex{
         margin:  0 auto;
@@ -394,6 +446,14 @@ div.number div.triangle{
 article.step section.down_flex{
     margin-left:60px;
     margin-bottom: 100px;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    article.step section.down_flex{
+        margin-left: 0px;
+    }   
+    
+    
+  
 }
 @media (max-width: 767.98px){
     article.step section.down_flex{

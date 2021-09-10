@@ -114,6 +114,8 @@ div.photo{
     div.photo{
         display: inline-block;
         margin-bottom: 30px;
+        width: 250px;
+        height: 250px;
     }
   
 }
@@ -121,6 +123,9 @@ div.photo{
     div.photo{
         display: inline-block;
         margin-bottom: 0px;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 250px;
         
     }
 }
@@ -149,15 +154,19 @@ div.talk_word{
     div.talk_word{
         display: inline-block;
         vertical-align: top;
-        margin-top: 100px;
+        margin-top: 50px;
+        width: 330px;
+        font-size: 20px;
     }
   
 }
 @media (max-width: 767.98px){
     div.talk_word{
+        width: 330px;
         display: block;
-        top:-20px;
+        top:-40px;
         margin-bottom: 20px;
+        font-size: 20px;
     }
 }
 
@@ -173,6 +182,27 @@ div.talk_word::before{
     border-left: 0px solid red;
     border-right: 20px solid #3EB3B2;
     border-bottom:20px solid transparent;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    div.talk_word::before{
+        left:-5px;
+    
+    border-top: 10px solid transparent;
+    border-left: 0px solid red;
+    border-right: 10px solid #3EB3B2;
+    border-bottom:10px solid transparent;
+    }
+  
+}
+@media (max-width: 767.98px){
+    div.talk_word::before{
+        left:-5px;
+        
+        border-top: 10px solid transparent;
+        border-left: 0px solid red;
+        border-right: 10px solid #3EB3B2;
+        border-bottom:10px solid transparent;
+    }
 }
 
 
