@@ -6,15 +6,17 @@ article.adopt{
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
     article.adopt{
-      min-width: 1086px;
+      width: 1086px;
       margin: 0 auto;
+      max-width:100%;
     }
     
   }
   @media (max-width: 767.98px){
     article.adopt{
-      min-width: 608px;
+      width: 608px;
       margin: 0 auto;
+      max-width:100%;
     }
   }
 

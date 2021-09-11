@@ -5,6 +5,7 @@ main{
     /* border: 1px solid black; */
     position: relative;
     background-color: #ECDFC3;
+    max-width: 100%;
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
     main{
@@ -404,7 +405,7 @@ div.number div.triangle{
     position: absolute;
     z-index: 2;
     bottom: 0;
-    left: -20px;
+    left: 10px;
   }
 
   div.triangle span.count{
@@ -419,7 +420,7 @@ div.number div.triangle{
 
   section.up_flex div.word,
   section.down_flex div.word{
-      width: 300px;
+      width: 260px;
       height: 35px;
       z-index: 1;
       background-color: white;
