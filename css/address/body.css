@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  img{
+    /* max-width: 100%; */
+  }
+  nav.nav{
+    order: 1;
+  }
+  
+  main{
+    order:2;
+  }
+  footer{
+    order: 3;
+}

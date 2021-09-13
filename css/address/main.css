@@ -1,0 +1,233 @@
+main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: #ECDFC3;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main{
+      width: 1086px;
+      margin: 0 auto;
+      max-width: 100%;
+      padding-bottom: 20px;
+    }
+    
+  }
+  @media (max-width: 767.98px){
+    main{
+      width: 608px;
+      margin: 0 auto;
+      max-width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+
+main div.bread{
+    height: 21px;
+    font-size: 16px;
+    color:#3EB3B2;
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    left:5px;
+}
+
+main div.bread >a {
+    font-size: 16px;
+    color:#3EB3B2;
+    text-decoration: none;
+}
+
+main section.map{
+    width: 572px;
+    height: 365px;
+    margin-top: 80px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid #5E454B;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main section.map{
+        width: 350px;
+        height: 250px;
+        margin-top: 135px;
+        margin-left: 20px;
+    }  
+  
+}
+@media (max-width: 767.98px){
+    main section.map{
+        width: 300px;
+        height: 250px;
+        margin:  0 auto;
+        margin-top: 50px;
+        max-width: 100%;
+        margin-left: 50px;
+    } 
+}
+
+main section.map >iframe{
+    width: 100%;
+    height: 100%;
+}
+
+main section.connect{
+    width: 535px;
+    height: 450px;
+    border: 1px solid #3EB3B2;
+    border-radius: 31px;
+    margin-right:20px;
+    padding: 30px;
+    margin-top: 80px;
+    background-color: white;
+    display: inline-block;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main section.connect{
+        width: 350px;
+        height: 300px;
+        margin-top: 135px;
+        margin-left: 20px;
+    }  
+  
+}
+@media (max-width: 767.98px){
+    main section.connect{
+        width: 350px;
+        height: 300px;
+        margin:  0 auto;
+        margin-top: 50px;
+        max-width: 100%;
+        margin-left: 50px;
+    } 
+}
+
+main section.connect >h1,
+main section.transport >h1
+{
+    font-size: 24px;
+    color: #5E454B;
+}
+main section.connect > hr,
+main section.transport >hr{
+    background-color: #5E454B;
+}
+main section.connect > h2{
+    font-size: 20px;
+    color: #5E454B;
+    word-break: keep-all;
+    line-height: 2.5;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main section.connect > h2{
+        line-height: 1.2;
+    }
+  
+}
+@media (max-width: 767.98px){
+    main section.connect > h2{
+        line-height: 1;
+    }
+}
+
+
+
+main section.fb{
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid #3EB3B2;
+    width: 500px;
+    margin-top: 50px;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main section.fb{
+        margin-top: 20px;
+        width: 450px;  
+    }
+  
+}
+@media (max-width: 767.98px){
+    main section.fb{
+        display: none;
+    }
+}
+
+
+main section.fb >iframe{
+    width: 100%;
+}
+
+main section.transport{
+    width: 600px;
+    height: 550px;
+    border: 1px solid #5E454B;
+    border-radius: 31px;
+    padding: 20px;
+    margin-top: 50px;
+    vertical-align: top;
+    background-color: white;
+    display: inline-block;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main section.transport{
+        width: 550px;
+        height: 450px;
+        padding: 10px;
+    }  
+  
+}
+@media (max-width: 767.98px){
+    main section.transport{
+        width: 350px;
+        height: 430px;
+        margin:  0 auto;
+        max-width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 50px;
+    } 
+}
+
+main section.transport >img{
+    width: 500px;
+    height: 250px;
+    object-fit: contain;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main section.transport >img{
+        width: 400px;
+        height: 200px;
+    }
+  
+}
+@media (max-width: 767.98px){
+    main section.transport >img{
+        width: 300px;
+        height: 200px;   
+    }
+}
+
+
+main section.transport >h2{
+    font-size: 20px;
+    color: #5E454B;
+    word-break: keep-all;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    main section.transport >h2{
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+  
+}
+@media (max-width: 767.98px){
+    main section.transport >h2{
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+}
+    
