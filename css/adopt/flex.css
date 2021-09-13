@@ -60,6 +60,12 @@ div.adopt_select div.select_word{
 div.adopt_select:hover div.select_word{
     display: inline-block;
 }
+@media (max-width: 767.98px){
+    div.adopt_select div.select_word{
+        display: block;
+        
+    }
+}
 
 span.heart {
     color:white;
