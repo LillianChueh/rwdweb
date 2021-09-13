@@ -42,13 +42,15 @@ header.header div.header_flex{
   position: relative;
 }
 
-header.header div.header_flex div.hamburger{
+header.header div.header_flex button.hamburger{
     display: none;
     margin-left: 5px;
     margin-right: 5px;
+    background-color: transparent;
+    border: none;
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
-  header.header div.header_flex div.hamburger{
+  header.header div.header_flex button.hamburger{
     display: inline-block;
     order:2;
     line-height: 100px;
@@ -59,7 +61,7 @@ header.header div.header_flex div.hamburger{
 }
 
 @media (max-width: 767.98px){
-  header.header div.header_flex div.hamburger{
+  header.header div.header_flex button.hamburger{
     display: inline-block;
     order:2;
     line-height: 100px;
@@ -101,7 +103,7 @@ nav.nav{
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
   nav.nav{
-    /* display: none; */
+    display: none;
     position: absolute;
     top:100px;
     right:0;
@@ -110,7 +112,7 @@ nav.nav{
 
 @media (max-width: 767.98px){
   nav.nav{
-    /* display: none; */
+    display: none;
     position: absolute;
     top:100px;
     right:0;
@@ -250,3 +252,8 @@ div.health:hover ul.health_list,
 div.location:hover ul.location_list{
   display:block;
 }
+
+nav.-open{
+  display: block;
+}
+

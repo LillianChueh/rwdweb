@@ -121,7 +121,8 @@ section.animal_flex div.adopt_select{
 }
 @media (max-width: 767.98px){
     section.animal_flex div.adopt_select{
-        height: 250px;
+        height: 200px;
+        margin-bottom: 20px;
     }
 }
 

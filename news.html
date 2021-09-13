@@ -22,7 +22,7 @@
         
         <div class = header_flex>
             <!-- 漢堡選單 -->
-            <div class="hamburger"><i class="fas fa-bars"></i></div>
+            <button class="hamburger"><i class="fas fa-bars"></i></button>
             
             <!-- 愛心圖案 -->
             <div class="nav_heart">
@@ -403,6 +403,21 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"> </script>
     
+
+    
+    <script>
+        // 選單
+    let button = document.querySelector('button.hamburger');
+    let nav = document.querySelector('nav.nav');
+
+    button.addEventListener("click", function(){
+      if (nav.classList.contains("-open")){
+        nav.classList.remove("-open");
+      }else{
+        nav.classList.add("-open");
+      }
+    })
+    </script>
 </body>  
 </html>
 

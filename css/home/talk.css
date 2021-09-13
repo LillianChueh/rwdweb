@@ -16,7 +16,7 @@ article.home_talk{
   }
   @media (max-width: 767.98px){
     article.home_talk{
-        width: 100%;
+        width: 608px;
         margin: 0 auto;
         max-width: 100%;
     }
@@ -28,6 +28,7 @@ div.talk_container{
     /* border: 1px solid blue; */
     margin: 0 auto;
     width: 1200px;
+    max-width: 100%;
     height: 900px;
     position: relative;
 }
@@ -95,7 +96,7 @@ div.small > img{
 @media (max-width: 767.98px){
     #each{
         margin: 0 auto;
-        margin-bottom: 80px;
+        margin-bottom: 30px;
         /* border: 1px solid red; */
     }
 }

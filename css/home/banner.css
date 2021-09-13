@@ -31,20 +31,32 @@ div.carousel{
   margin: 0;
   padding: 0;
 }
+@media (max-width: 767.98px){
+  div.carousel{
+    height: 500px;
+  }
+}
+
 div.carousel >div {
   height: 800px;
   width: 100%;
   /* display: inline-block; */
   /* border: 1px solid blue; */
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right;
   background-size: cover;
   margin: 0;
   padding: 0;
   position: absolute;
   top: 0;
-  
 }
+@media (max-width: 767.98px){
+  div.carousel >div{
+    height: 500px;
+    background-position: right bottom;
+  }
+}
+
 div.carousel  div.banner1{
   background-image: url("../../photo/banner1.jpeg");
   
@@ -141,7 +153,7 @@ div.mask div.word{
 }
 @media (max-width: 767.98px){
   div.mask div.word{
-    top:650px;
+    top:450px;
   }
 }
 
@@ -203,7 +215,7 @@ div.mask div.cat{
 } 
 @media (max-width: 767.98px){
   div.mask div.cat{
-    top:950px;
+    top:750px;
   }
 }
 
@@ -221,8 +233,8 @@ div.scroll{
 }
 @media (max-width: 767.98px){
   div.scroll{
-    top:900px;
-    left: 450px;
+    top:800px;
+    left: 320px;
   }
 }
 
