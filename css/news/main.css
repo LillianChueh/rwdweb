@@ -141,6 +141,12 @@ div.news_word > span{
     top:0px;
     right: 0;
 }
+@media (min-width: 768px) and (max-width: 1199.98px){
+    div.news_word > span{
+        right: 20px;   
+    }
+  
+}
 
 div.news_word div.content{
     padding: 10px;

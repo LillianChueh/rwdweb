@@ -102,9 +102,11 @@ article.banner div.news_title{
     font-size: 40px;
     color: #5E454B;
     background-color: white;
-    position: absolute;
+    /* position: absolute;
     bottom: 50px;
-    left: 455px;
+    left: 455px; */
+    position: relative;
+    margin: 0 auto;
     z-index: 3;
     padding: 20px;
     border-radius: 5px;
