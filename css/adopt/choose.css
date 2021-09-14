@@ -11,11 +11,12 @@ main div.choose{
 }
 @media (max-width: 767.98px){
     main div.choose{
-        width: 400px;
+        width: 350px;
         display: block;
         position: relative;
         top:50px;
         margin:  0 auto;
+        
     }
 }
 
@@ -38,7 +39,7 @@ div.find{
         display: block;
         position: absolute;
         top:15px;
-        right:130px;
+        right:100px;
     }
     
 }
