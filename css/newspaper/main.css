@@ -169,7 +169,7 @@ article.news div.date{
         top:0;
         left: 0;
         width: 90px;
-        height: 40px;
+        height: 43px;
         margin-left: 10px;
         margin-right: 5px;
         margin-top: 50px;
@@ -183,7 +183,7 @@ article.news div.date{
 article.news div.date span{
     width: 100%;
     display: inline-block;
-    height: 50%;
+    height: 48%;
     color: #5E454B;
 }
 @media (min-width: 768px) and (max-width: 1199.98px){
