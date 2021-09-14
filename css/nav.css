@@ -20,6 +20,7 @@ header.header{
     width: 608px;
     margin: 0 auto;
     max-width:100%;
+    background-color: rgba(231, 245, 222, 0.5);
   }
 }
 
