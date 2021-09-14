@@ -92,7 +92,11 @@ div.mask div.dog_amount ,div.mask div.cat_amount{
   border:1px #3EB3B2;
   display: inline-block;
   background-color: #ECDFC3;
-  
+}
+@media (max-width: 767.98px){
+  div.mask div.dog_amount ,div.mask div.cat_amount{
+    display: none;
+  }
 }
 div.mask div.dog_amount >a ,div.mask div.cat_amount >a{
   text-align:center;
@@ -135,11 +139,13 @@ div.mask div.dog_amount{
   top: 121px;
   left: 10px;
 }
+
 div.mask div.cat_amount{
   position: absolute;
   top: 187px;
   left: 10px;
 }
+
 
 div.mask div.word{
   width:400px;
