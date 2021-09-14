@@ -228,6 +228,8 @@ div.mask div.cat{
 @media (max-width: 767.98px){
   div.mask div.cat{
     top:650px;
+    width:150px;
+    height: 100px;
   }
 }
 
@@ -246,7 +248,9 @@ div.scroll{
 @media (max-width: 767.98px){
   div.scroll{
     top:650px;
-    left: 320px;
+    left: 200px;
+    width: 90px;
+    height: 110px;
   }
 }
 

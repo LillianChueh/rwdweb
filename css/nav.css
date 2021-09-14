@@ -33,6 +33,11 @@ header.header div.logo{
     background-size: contain;
     background-position: center;
 }
+@media (max-width: 767.98px){
+  header.header div.logo{
+    min-width: 200px;  
+  }
+}
 
 
 header.header div.header_flex{
