@@ -267,7 +267,6 @@ div.table label.question{
 }
 @media (max-width: 767.98px){
     div.table label.question{
-        text-align: left;
         margin-top: 20px;
     }
 }
