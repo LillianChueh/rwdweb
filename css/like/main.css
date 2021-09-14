@@ -17,8 +17,9 @@ main{
   }
   @media (max-width: 767.98px){
     main{
-      max-width: 608px;
+      width: 608px;
       margin: 0 auto;
+      max-width: 100%;
     }
   }
 
@@ -63,7 +64,7 @@ main article.list{
       width: 550px;
       height: 1200px;
       padding-bottom: 10px;
-      max-width: 100%;
+      max-width: 95%;
     }
   }
 
@@ -91,6 +92,7 @@ position: relative;
     article.list section.animal{
         width: 500px;
         /* height: 600px; */
+        max-width: 95%;
     }
   }
 

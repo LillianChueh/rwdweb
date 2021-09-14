@@ -20,3 +20,6 @@
   footer{
     order: 3;
 }
+main div.bread >span{
+  color: #5E454B;
+}
