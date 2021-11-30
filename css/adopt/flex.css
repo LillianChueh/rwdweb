@@ -53,6 +53,7 @@ div.adopt_select div.select_word{
     z-index: 1;
     position: absolute;
     bottom: 0;
+    /* left: 0; */
     font-size: 16px;
     display: none;
 }
